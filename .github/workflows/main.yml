@@ -46,7 +46,7 @@ jobs:
         # Navigate to the app directory on EC2
         cd /home/ec2-user/expense-server
         # Pull the latest changes from the repository
-        git pull borigin main
+        git pull origin main
 
         # Install server dependencies on EC2
         cd server
