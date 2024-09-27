@@ -37,7 +37,7 @@ jobs:
         # Check if directory exists, if not, clone it
         if [ ! -d "/home/ec2-user/expense-server" ]; then
           echo "Directory not found. Cloning the repository..."
-          git clone https://github.com/Venu1433697/expense.git /home/ec2-user/expense-server
+          git clone https://github.com/Venu1433697/expense-test.git /home/ec2-user/expense-server
         else
           echo "Directory exists. Pulling latest changes..."
         fi
